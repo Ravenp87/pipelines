@@ -2,8 +2,6 @@
 
 ## Major Features and Improvements
 
-* Support container environment variable in v2. [\#6515](https://github.com/kubeflow/pipelines/pull/6515)
-
 ## Breaking Changes
 
 ### For Pipeline Authors
@@ -11,6 +9,67 @@
 ### For Component Authors
 
 ## Deprecations
+
+## Bug Fixes and Other Changes
+
+## Documentation Updates
+
+# 1.8.2
+
+## Major Features and Improvements
+
+* N/A
+
+## Breaking Changes
+
+* N/A
+
+### For Pipeline Authors
+
+* N/A
+
+### For Component Authors
+
+* N/A
+
+## Deprecations
+
+* N/A
+
+## Bug Fixes and Other Changes
+
+* Fix component decorator could result in invalid component if `install_kfp_package=False`. [\#6527](https://github.com/kubeflow/pipelines/pull/6527))
+* v2 compiler to throw no task defined error. [\#6545](https://github.com/kubeflow/pipelines/pull/6545)
+* Improve output parameter type checking in V2 SDK. [\#6566](https://github.com/kubeflow/pipelines/pull/6566)
+* Use `Annotated` rather than `Union` for `Input` and `Output`. [\#6573](https://github.com/kubeflow/pipelines/pull/6573)
+* Depends on `typing-extensions>=3.10.0.2,<4`. [\#6573](https://github.com/kubeflow/pipelines/pull/6573)
+
+## Documentation Updates
+
+* N/A
+
+
+# 1.8.1
+
+## Major Features and Improvements
+
+* Support container environment variable in v2. [\#6515](https://github.com/kubeflow/pipelines/pull/6515)
+
+## Breaking Changes
+
+* N/A
+
+### For Pipeline Authors
+
+* N/A
+
+### For Component Authors
+
+* N/A
+
+## Deprecations
+
+* N/A
 
 ## Bug Fixes and Other Changes
 
@@ -25,6 +84,9 @@
 
 ## Documentation Updates
 
+* N/A
+
+
 # 1.8.0
 
 ## Major Features and Improvements
@@ -38,9 +100,15 @@
 
 ### For Pipeline Authors
 
+* N/A
+
 ### For Component Authors
 
+* N/A
+
 ## Deprecations
+
+* N/A
 
 ## Bug Fixes and Other Changes
 
@@ -54,6 +122,8 @@
 * Format all Python files under SDK folder. [\#6501](https://github.com/kubeflow/pipelines/issues/6501)
 
 ## Documentation Updates
+
+* N/A
 
 # 1.7.2
 
